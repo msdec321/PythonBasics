@@ -22,8 +22,8 @@ time.sleep(3)
 
 while True:
 
-    for i in range(len(grid)):
-        for j in range(len(grid)):
+    for i in range(N):
+        for j in range(N):
             try:
                 if (grid[i+1][j] and grid[i-1][j])==1:   grid[i][j]=1
                 elif (grid[i+1][j] and grid[i][j+1])==1: grid[i][j]=1
@@ -35,7 +35,7 @@ while True:
 
             except IndexError: continue
 
-    for i,j in enumerate(grid):
+    for i in range(N):
         print(grid[i])
 
     print('-------------Next grid----------------')
