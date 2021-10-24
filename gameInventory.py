@@ -15,4 +15,21 @@ def displayInventory(invent):
     print('Total number of items:', item_count)
 
 
+def addToInventory(invent, addItems):
+
+    for i in dragonsLoot:
+
+        if i in invent.keys():
+            invent[i]+=1
+
+        else:
+            invent.setdefault(i, 1)
+
+
+displayInventory(inventory)
+
+dragonsLoot = ['rope', 'gold coin', 'arrow', 'dragon tooth']
+
+addToInventory(inventory, dragonsLoot)
+
 displayInventory(inventory)
