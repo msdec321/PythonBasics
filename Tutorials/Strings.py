@@ -34,7 +34,6 @@ print('%s, is a string that I wrote!' % (myString))
 print(f'{myString}, is a string that I wrote!')
 
 
-
 #String methods
 #.upper() and .lower() for all upper/lowercase
 print(myString.upper()) ; print(myString.lower())
@@ -48,3 +47,20 @@ print(myString.isupper())
 #.isspace() : True if only space, tab, newline.
 #.istitle() : True if Uppercase followed by lowercase word. (Title)
 
+#Can check if string starts/ends with a sub-string.
+print(myString.startswith('Hell'))
+print(myString.endswith('x'))
+
+#The .join() method can be used to combine a list of strings
+myList = ['cats', 'dogs', 'and rats']
+print(', '.join(myList)) #What .join is called with is inserted between each string.
+
+#The .split() method does the opposite. Take string, outputs list. Splits at whitespace.
+print('My name is Matthew.'.split())
+#Can also split at newline via .split('\n')
+
+#You can split strings at specific characters using the .partition() method
+print('My name is Matthew.'.partition('i'))
+
+#Remove whitespace in a string with .strip(), .rstrip(), .lstrip() methods
+#  or strip specific characters .strip('ams') removes a, m, and s characters.
