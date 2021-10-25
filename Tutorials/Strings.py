@@ -64,3 +64,9 @@ print('My name is Matthew.'.partition('i'))
 
 #Remove whitespace in a string with .strip(), .rstrip(), .lstrip() methods
 #  or strip specific characters .strip('ams') removes a, m, and s characters.
+
+
+#You can also copy-paste text using the pyperclip module.
+import pyperclip
+pyperclip.copy('Hello')
+print(pyperclip.paste())
