@@ -20,12 +20,12 @@ try:
         if password[i].islower(): lower_flag=1
         if password[i].isdecimal(): digit_flag=1
 
-    if upper_flag==1 and lower_flag==1 and digit_flag==1:
+    if upper_flag and lower_flag and digit_flag:
         print(f'{password} is a strong password!')
 
-    if upper_flag==0: print(f'{password} is missing an uppercase letter.')
-    if lower_flag==0: print(f'{password} is missing a lowercase letter.')
-    if digit_flag==0: print(f'{password} is missing a digit.')
+    if not upper_flag: print(f'{password} is missing an uppercase letter.')
+    if not lower_flag: print(f'{password} is missing a lowercase letter.')
+    if not digit_flag: print(f'{password} is missing a digit.')
 
 
 except AttributeError:
