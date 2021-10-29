@@ -15,8 +15,7 @@ print('Welcome to the sandwich maker! How would you like your sandwich made?')
 
 prices = {'wheat': 0.70, 'white': 0.55, 'sourdough': 1.15,
           'chicken': 1.25, 'turkey': 1.50, 'ham': 1.50, 'tofu': 1.20,
-          'cheddar': 1.15, 'swiss': 1.25, 'mozarella': 1.20,
-          'mayo': 0.35, 'mustard': 0.35, 'lettuce': 0.25, 'tomato': 0.30}
+          'cheddar': 1.15, 'swiss': 1.25, 'mozarella': 1.20}
 
 totalCost = 0.00
 
@@ -38,22 +37,22 @@ if cheeseYesNo == 'yes':
 print('Would you like mayo?')
 mayoYesNo = pyip.inputYesNo()
 if mayoYesNo == 'yes':
-    totalCost+=1.00
+    totalCost+=0.35
 
 print('Would you like mustard?')
 mustardYesNo = pyip.inputYesNo()
 if mustardYesNo == 'yes':
-    totalCost+=1.00
+    totalCost+=0.35
 
 print('Would you like lettuce?')
 lettuceYesNo = pyip.inputYesNo()
 if lettuceYesNo == 'yes':
-    totalCost+=1.00
+    totalCost+=0.25
 
 print('Would you like tomato?')
 tomatoYesNo = pyip.inputYesNo()
 if tomatoYesNo == 'yes':
-    totalCost+=1.00
+    totalCost+=0.30
 
 numSandwiches = pyip.inputNum('How many sandwiches would you like? ', min=1)
 
