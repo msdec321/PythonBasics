@@ -51,21 +51,3 @@ def addsToTen(numbers):
     return int(numbers)
 
 response = pyip.inputCustom(addsToTen)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
