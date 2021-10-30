@@ -1,0 +1,357 @@
+Name: 
+Date: 
+Period:
+
+                    State Capital Quiz (Form 24)
+
+
+Question #1: What is the capitol of Vermont? 
+A: Indianapolis
+B: Lansing
+C: Raleigh
+D: Monteplier
+
+
+Question #2: What is the capitol of Ohio? 
+A: Nashville
+B: Albany
+C: Columbus
+D: Lincoln
+
+
+Question #3: What is the capitol of Minnisota? 
+A: Frankfort
+B: Albany
+C: Saint Paul
+D: Denver
+
+
+Question #4: What is the capitol of New Jersey? 
+A: Trenton
+B: Denver
+C: Columbus
+D: Cheyenne
+
+
+Question #5: What is the capitol of West Virginia? 
+A: Charleston
+B: Columbus
+C: Jackson
+D: Boston
+
+
+Question #6: What is the capitol of North Dakota? 
+A: Oklahoma City
+B: Boston
+C: Columbus
+D: Bismark
+
+
+Question #7: What is the capitol of Iowa? 
+A: Boston
+B: Des Moines
+C: Frankfort
+D: Lincoln
+
+
+Question #8: What is the capitol of Arizona? 
+A: Sacramento
+B: Pheonix
+C: Frankfort
+D: Madison
+
+
+Question #9: What is the capitol of Oregon? 
+A: Columbia
+B: Salem
+C: Little Rock
+D: Salt Lake City
+
+
+Question #10: What is the capitol of Nebraska? 
+A: Lincoln
+B: Saint Paul
+C: Oklahoma City
+D: Denver
+
+
+Question #11: What is the capitol of New Mexico? 
+A: Juneau
+B: Santa Fe
+C: Saint Paul
+D: Bismark
+
+
+Question #12: What is the capitol of Washington? 
+A: Springfield
+B: Olympia
+C: Topeka
+D: Saint Paul
+
+
+Question #13: What is the capitol of Montana? 
+A: Salt Lake City
+B: Denver
+C: Baton Rouge
+D: Helena
+
+
+Question #14: What is the capitol of Utah? 
+A: Salt Lake City
+B: Austin
+C: Salem
+D: Honolulu
+
+
+Question #15: What is the capitol of Rhode Island? 
+A: Austin
+B: Harrisburg
+C: Providence
+D: Jefferson City
+
+
+Question #16: What is the capitol of Maryland? 
+A: Juneau
+B: Montgomary
+C: Annapolis
+D: Denver
+
+
+Question #17: What is the capitol of New York? 
+A: Albany
+B: Indianapolis
+C: Annapolis
+D: Oklahoma City
+
+
+Question #18: What is the capitol of Alaska? 
+A: Juneau
+B: Boise
+C: Madison
+D: Boston
+
+
+Question #19: What is the capitol of Kentucky? 
+A: Cheyenne
+B: Frankfort
+C: Austin
+D: Jackson
+
+
+Question #20: What is the capitol of Michigan? 
+A: Harrisburg
+B: Lansing
+C: Denver
+D: Helena
+
+
+Question #21: What is the capitol of Nevada? 
+A: Carson City
+B: Salt Lake City
+C: Bismark
+D: Cheyenne
+
+
+Question #22: What is the capitol of California? 
+A: Providence
+B: Sacramento
+C: Jackson
+D: Monteplier
+
+
+Question #23: What is the capitol of Oklahoma? 
+A: Charleston
+B: Bismark
+C: Jackson
+D: Oklahoma City
+
+
+Question #24: What is the capitol of Texas? 
+A: Santa Fe
+B: Pheonix
+C: Monteplier
+D: Austin
+
+
+Question #25: What is the capitol of Kansas? 
+A: Sacramento
+B: Oklahoma City
+C: Topeka
+D: Carson City
+
+
+Question #26: What is the capitol of North Carolina? 
+A: Juneau
+B: Raleigh
+C: Montgomary
+D: Columbia
+
+
+Question #27: What is the capitol of Idaho? 
+A: Augusta
+B: Tallahassee
+C: Boise
+D: Helena
+
+
+Question #28: What is the capitol of Virginia? 
+A: Salt Lake City
+B: Columbia
+C: Richmond
+D: Tallahassee
+
+
+Question #29: What is the capitol of Maine? 
+A: Pheonix
+B: Honolulu
+C: Pierre
+D: Augusta
+
+
+Question #30: What is the capitol of Georgia? 
+A: Richmond
+B: Nashville
+C: Atlanta
+D: Springfield
+
+
+Question #31: What is the capitol of Colorado? 
+A: Hartford
+B: Richmond
+C: Denver
+D: Helena
+
+
+Question #32: What is the capitol of Louisiana? 
+A: Hartford
+B: Baton Rouge
+C: Santa Fe
+D: Providence
+
+
+Question #33: What is the capitol of Arkansas? 
+A: Little Rock
+B: Dover
+C: Pierre
+D: Tallahassee
+
+
+Question #34: What is the capitol of Wyoming? 
+A: Frankfort
+B: Harrisburg
+C: Hartford
+D: Cheyenne
+
+
+Question #35: What is the capitol of South Carolina? 
+A: Little Rock
+B: Pheonix
+C: Cheyenne
+D: Columbia
+
+
+Question #36: What is the capitol of Hawaii? 
+A: Topeka
+B: Honolulu
+C: Columbia
+D: Salt Lake City
+
+
+Question #37: What is the capitol of Delaware? 
+A: Albany
+B: Austin
+C: Dover
+D: Santa Fe
+
+
+Question #38: What is the capitol of Illinois? 
+A: Montgomary
+B: Springfield
+C: Jefferson City
+D: Pierre
+
+
+Question #39: What is the capitol of Pennsylvania? 
+A: Oklahoma City
+B: Dover
+C: Cheyenne
+D: Harrisburg
+
+
+Question #40: What is the capitol of Missouri? 
+A: Trenton
+B: Dover
+C: Jefferson City
+D: Atlanta
+
+
+Question #41: What is the capitol of Connecticut? 
+A: Helena
+B: Albany
+C: Hartford
+D: Salt Lake City
+
+
+Question #42: What is the capitol of Massachusetts? 
+A: Honolulu
+B: Boston
+C: Columbus
+D: Denver
+
+
+Question #43: What is the capitol of Wisconsin? 
+A: Hartford
+B: Columbus
+C: Madison
+D: Albany
+
+
+Question #44: What is the capitol of New Hampshire? 
+A: Charleston
+B: Annapolis
+C: Concord
+D: Harrisburg
+
+
+Question #45: What is the capitol of Alabama? 
+A: Concord
+B: Topeka
+C: Salem
+D: Montgomary
+
+
+Question #46: What is the capitol of Tennesse? 
+A: Nashville
+B: Honolulu
+C: Jackson
+D: Pheonix
+
+
+Question #47: What is the capitol of South Dakota? 
+A: Hartford
+B: Honolulu
+C: Pierre
+D: Trenton
+
+
+Question #48: What is the capitol of Mississippi? 
+A: Providence
+B: Topeka
+C: Jackson
+D: Albany
+
+
+Question #49: What is the capitol of Florida? 
+A: Jefferson City
+B: Salt Lake City
+C: Santa Fe
+D: Tallahassee
+
+
+Question #50: What is the capitol of Indiana? 
+A: Honolulu
+B: Indianapolis
+C: Columbus
+D: Frankfort
+
+
