@@ -10,8 +10,6 @@
 import shelve, pyperclip, sys
 from pprint import pprint
 
-#clipboard = {'spam': 'This is spam!', 'eggs': 'These are eggs!'}
-
 if sys.argv[1]=="list":
     clipboardShelf = shelve.open('clipboard')
     for key in clipboardShelf:
