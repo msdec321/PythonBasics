@@ -10,25 +10,40 @@
 import shelve, pyperclip, sys
 from pprint import pprint
 
-if sys.argv[1]=="list":
+if len(sys.argv)==3:
     clipboardShelf = shelve.open('clipboard')
-    for key in clipboardShelf:
-        print('keyword: ', key, ', value: ', clipboardShelf[key])
+
+    if sys.argv[1]=="save" and sys.argv[2].isalnum():
+        clipboardShelf[sys.argv[2]] = pyperclip.paste()
+
+    elif sys.argv[1]=="delete" and sys.argv[2] in clipboardShelf.keys():
+        clipboardShelf.pop(sys.argv[2])
+
+    elif sys.argv[1]!="save" and sys.argv[1]!="delete":
+        print(f'{sys.argv[1]} is not a valid option.')
+
     clipboardShelf.close()
 
-elif len(sys.argv)==3 and sys.argv[1]=="save" and sys.argv[2].isalnum():
-    clipboardShelf = shelve.open('clipboard')
-    clipboardShelf[sys.argv[2]] = pyperclip.paste()
-    clipboardShelf.close()
 
 elif len(sys.argv)==2:
     clipboardShelf = shelve.open('clipboard')
 
-    if sys.argv[1] in clipboardShelf.keys():
+    if sys.argv[1]=="list":
+        for key in clipboardShelf:
+            print('keyword: ', key, ', value: ', clipboardShelf[key])
+        clipboardShelf.close()
+
+    elif sys.argv[1]=="delete":
+        for key in clipboardShelf:
+            clipboardShelf.pop(key)
+
+    elif sys.argv[1] in clipboardShelf.keys():
         pyperclip.copy(clipboardShelf[sys.argv[1]])
         print(f'{sys.argv[1]} value copied to clipboard!')
+
     else:
         print(f'{sys.argv[1]} is not a saved keyword. To save, type python3 mcb.pyw save {sys.argv[1]}.')
+
     clipboardShelf.close()
 
 else:
