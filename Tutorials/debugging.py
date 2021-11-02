@@ -4,9 +4,7 @@
 
 #Two features to catch bugs early are "logging" and "assertions".
 
-
 #You can raise an exception error manually using the "raise" statement.
-
 #raise Exception ('This is an error message.')
 
 
@@ -28,7 +26,6 @@ except:
 ages = [25, 26, 29, 42, 15, 21, 53]
 ages.reverse()
 #assert ages[0]<=ages[-1]
-
 
 
 #The "logging" module helps create a record of printout statements. It will specify any variables
