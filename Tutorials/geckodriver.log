@@ -1,0 +1,59 @@
+1635907822947	geckodriver	INFO	Listening on 127.0.0.1:50901
+1635907823456	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60265" "-no-remote" "-profile" "/tmp/rust_mozprofileWXogVD"
+1635907826220	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWXogVD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60265/devtools/browser/d97bc206-c291-4f54-8952-a97a728ba341
+1635907831132	Marionette	INFO	Listening on port 40903
+1635907831346	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1635907931436	Marionette	INFO	Stopped listening on port 40903
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1635909240898	geckodriver	INFO	Listening on 127.0.0.1:54697
+1635909241402	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46601" "-no-remote" "-profile" "/tmp/rust_mozprofile758hKK"
+1635909244107	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile758hKK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:46601/devtools/browser/9ececfa8-9a94-40f6-8a1d-dbeb698dbeec
+1635909249089	Marionette	INFO	Listening on port 38525
+1635909249373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1635909297108	geckodriver	INFO	Listening on 127.0.0.1:42237
+1635909297649	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43667" "-no-remote" "-profile" "/tmp/rust_mozprofilem2xgZk"
+1635909300758	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem2xgZk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:43667/devtools/browser/dbca4682-826d-4908-af0a-e2f3587a31ca
+1635909304901	Marionette	INFO	Listening on port 38521
+1635909304991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1635909316159	Marionette	INFO	Stopped listening on port 38521
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635909320400	Marionette	INFO	Stopped listening on port 38525
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635986459941	geckodriver	INFO	Listening on 127.0.0.1:34715
+1635986460437	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57419" "-no-remote" "-profile" "/tmp/rust_mozprofileqITaUL"
+1635986464517	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqITaUL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57419/devtools/browser/75ceb85a-e7a5-4527-aa02-b4adf5ac6450
+1635986477511	Marionette	INFO	Listening on port 37457
+1635986477616	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1635986482038	geckodriver	INFO	Listening on 127.0.0.1:40531
+1635986482132	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47611" "-no-remote" "-profile" "/tmp/rust_mozprofileDeTKOd"
+1635986486502	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDeTKOd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47611/devtools/browser/d5c2ded9-cbdf-4824-be23-a41a84c954b3
+1635986500322	Marionette	INFO	Listening on port 35527
+1635986500506	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1635986543356	Marionette	INFO	Stopped listening on port 35527
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1635986546015	Marionette	INFO	Stopped listening on port 37457
