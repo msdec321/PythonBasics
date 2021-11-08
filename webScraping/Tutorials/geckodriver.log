@@ -1,0 +1,21 @@
+1636396840266	geckodriver	INFO	Listening on 127.0.0.1:33505
+1636396840768	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44673" "-no-remote" "-profile" "/tmp/rust_mozprofileTZYYPl"
+1636396843581	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTZYYPl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:44673/devtools/browser/ddf6899c-84c2-484e-ac81-cbc31c9a3184
+1636396847996	Marionette	INFO	Listening on port 42779
+1636396848185	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1636396851003	geckodriver	INFO	Listening on 127.0.0.1:44715
+1636396851060	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33875" "-no-remote" "-profile" "/tmp/rust_mozprofilejn6siP"
+1636396856235	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejn6siP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33875/devtools/browser/5c6f73a9-c470-4b1e-a413-68ec80d0cf46
+1636396862615	Marionette	INFO	Listening on port 34309
+1636396862733	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636396863311	Marionette	INFO	Stopped listening on port 34309
+1636396863709	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://services-settings/Utils.jsm, line 117: TypeError: NetworkError: Network request failed
+[2021-11-08T18:41:04Z ERROR glean] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1636396871239	Marionette	INFO	Stopped listening on port 42779

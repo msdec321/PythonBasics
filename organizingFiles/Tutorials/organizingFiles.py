@@ -5,7 +5,7 @@
 import shutil
 
 #To copy a file/directory (source, destination)
-shutil.copy('text.txt', '..')   #(Can rename in the destination)
+shutil.copy('../backupFile.py', 'myBackup.py')   #(Can rename in the destination)
 #To copy an entire directory, use shutil.copytree()
 #To move, use shutil.move()  - Remember to specify file extensions (.py, .txt, etc)
 

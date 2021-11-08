@@ -11,11 +11,11 @@
 from pathlib import Path
 
 #If Path is passed strings, it will use the correct seperators.
-Path('usr', 'git', 'SmallProjects', 'Tutorials')
+Path('usr', 'git', 'SmallProjects')
 
 
 #How to display multiple files
-myFiles = ['Dictionaries.py', 'richText.py', 'Strings.py']
+myFiles = ['../madLibs.py', '../randomizedQuiz.py', '../regexSearch.py']
 for filename in myFiles:
     print(Path(r'/usr/git/SmallProjects', filename))
 
@@ -38,7 +38,7 @@ print(Path.cwd() / Path('./'))
 
 
 #Filesize (in kb)
-print(os.path.getsize('Dictionaries.py')/1000.)
+print(os.path.getsize('../madLibs.py')/1000.)
 
 #ls
 print(os.listdir('./'))
@@ -52,7 +52,7 @@ print(os.listdir('./'))
 
 #Reading a file with Path
 from pathlib import Path
-p = Path('Tuples.py')
+p = Path('../madLibs.py')
 #Set path to a variable, then read its contents (as a String object)
 print(p.read_text())
 
