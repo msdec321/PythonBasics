@@ -40,11 +40,11 @@ bitmap_as_list = bitmap.split('\n')  #Store the bitmap as a list object.
 myString = pyip.inputStr('Input a string for the bitmap: ')
 new_map = []
 
-for i, line in enumerate(bitmap_as_list):
+for line in bitmap_as_list:
     new_line = ""  #Initialize a blank String object.
 
     k = 0
-    for j, char in enumerate(line):  #Fill the string object with either whitespace or the input string characters.
+    for char in line:  #Fill the string object with either whitespace or the input string characters.
         if char == ' ': new_line += (' ')
         elif char == '*' or char == '.': new_line += (myString[k])
 
