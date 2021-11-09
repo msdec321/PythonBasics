@@ -21,11 +21,11 @@ months = {"Jan":31, "Feb":29, "Mar":31, "Apr":30, "May":31, "Jun":30, "Jul":31, 
 
 def main():
 
-    match_count=0
-    total_count=0
+    match_count = 0
+    total_count = 0
 
-    N = pyip.inputNum("Enter a number of birthdays: ", min=1)
-    M = pyip.inputNum("Enter a number of simulations (min=100): ", min=100)
+    N = pyip.inputNum("Enter a number of birthdays: ", min = 1)
+    M = pyip.inputNum("Enter a number of simulations (min=100): ", min = 100)
 
     for i in range(M):
 
@@ -35,9 +35,9 @@ def main():
             bdays.append(birthdayPicker(months))
 
         if findMatch(bdays):
-            match_count+=1
+            match_count += 1
 
-        total_count+=1
+        total_count += 1
 
     print(f'The frequency of a matching birthdays in {M} simulations given {N} people is {match_count} times.')
     print(f'The probability of a matching birthday occuring given {N} people is {float(match_count)/float(total_count)}.')
@@ -47,14 +47,14 @@ def main():
 def birthdayPicker(months):
     month = random.choice(list(months.keys()))
     day = random.randint(1, months[month])
-    return str(month+" "+str(day))
+    return str(month + " " + str(day))
 
 
 def findMatch(bdays):
     bdays.sort()
     for index, item in enumerate(bdays):
         try:
-            if bdays[index]==bdays[index+1]:
+            if bdays[index] == bdays[index + 1]:
                 return True
         except IndexError:
             continue
