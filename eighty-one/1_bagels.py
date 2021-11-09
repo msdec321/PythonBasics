@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 
-# bagels.py - In Bagels, a deductive logic game, you must guess a secret three-digit number based on clues. The game offers one of the following hints in response to your guess: “Pico” when your guess has a correct digit in the wrong place, “Fermi” when your guess has a correct digit in the correct place, and “Bagels” if your guess has no correct digits. You have 10 tries to guess the secret number.
+'''
+bagels.py - In Bagels, a deductive logic game, you must guess a secret three-digit number based on
+clues. The game offers one of the following hints in response to your guess: “Pico” when your guess has
+a correct digit in the wrong place, “Fermi” when your guess has a correct digit in the correct place,
+and “Bagels” if your guess has no correct digits. You have 10 tries to guess the secret number.
+'''
 
 import random
 import pyinputplus as pyip
 
-num = random.randint(100,999)
+num = random.randint(100, 999)
 
 for i in range(10):
 
