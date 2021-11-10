@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 
 '''
-4_blackjack.py - Blackjack, also known as 21, is a card game where players try to get as close to 21 points as possible without going over. This program uses images drawn with text characters, called ASCII art. American Standard Code for Information Interchange (ASCII) is a mapping of text characters to numeric codes that computers used before Unicode replaced it.
+4_blackjack.py - Blackjack, also known as 21, is a card game where players try to get as close to 21 points as
+possible without going over. This program uses images drawn with text characters, called ASCII art. American Standard
+Code for Information Interchange (ASCII) is a mapping of text characters to numeric codes that computers used before
+Unicode replaced it.
 '''
 
 import pyinputplus as pyip
@@ -70,7 +73,7 @@ def print_card(num, face, total):
 
 print(f'Money: {money}')
 
-bet = pyip.inputNum(f'How much do you bet? (1-{money}, or QUIT) ', min = 1, max = money)
+bet = pyip.inputNum(f'How much do you bet? (1-{money}) ', min = 1, max = money)
 print(f'Bet: {bet}')
 
 #Main game loop
@@ -184,7 +187,7 @@ while True:
 
     choice = pyip.inputYesNo(f'Play again? (Yes/No): ')
     if choice.lower() == 'yes':
-        bet = pyip.inputNum(f'How much do you bet? (1-{money}, or QUIT) ', min = 1, max = money)
+        bet = pyip.inputNum(f'How much do you bet? (1-{money}) ', min = 1, max = money)
         print(f'Bet: {bet}')
         continue
     else:
