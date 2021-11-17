@@ -32,7 +32,7 @@ CARDS = [2, 3, 4, 5, 6, 7, 8, 9, 10, 'A', 'J', 'Q', 'K']
 SUITS = [HEARTS, DIAMONDS, SPADES, CLUBS]
 
 
-def print_card(card_num, card_face, card_total):
+def print_card(card_num, card_face: chr, card_total: int) -> int:
 
     card_line1 = ''
     card_line2 = ''
@@ -188,7 +188,7 @@ while True:
         print('You ran out of money! Thanks for playing!')
         sys.exit()
 
-    choice = pyip.inputYesNo(f'Play again? (Yes/No): ')
+    choice = pyip.inputYesNo(f'Play again? (y/n): ')
     if choice.lower() == 'yes':
         bet = pyip.inputNum(f'How much do you bet? (1-{money}) ', min = 1, max = money)
         print(f'Bet: {bet}')
