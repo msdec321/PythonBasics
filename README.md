@@ -1,4 +1,4 @@
-# SmallProjects
+# PythonBasics
 
 This is a set of small projects and tutorials presented in the textbook: https://automatetheboringstuff.com/
 
