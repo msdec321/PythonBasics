@@ -59,3 +59,16 @@ from pprint import pprint
 pprint(birthdays, width=20)
 
 
+# Nesting dictionaries
+myDict = { "subdict1" : { "key1" : "value1",
+                          "key2" : "value2" },
+           "subdict2" : { "key3" : "value3",
+                          "key4" : "value4" } }
+
+# Access a value in the nested dictionary
+print(myDict["subdict1"]["key1"])
+
+# How to loop through a nested dictionary
+for key in myDict.keys():
+    for subkey in myDict[key].keys():
+        print(key, subkey, myDict[key][subkey])
